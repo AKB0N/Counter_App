@@ -3,7 +3,7 @@
 my First Flutter app 
 
 # Previews
-<img src="https://raw.githubusercontent.com/AKB0N/Flutter-App/master/1.png" width="400"/> 
+<img src="https://raw.githubusercontent.com/AKB0N/Counter_App/master/1.png" width="400"/> 
 
 ## Getting Started
 
