@@ -5,15 +5,15 @@ my First Flutter app
 # Previews
 <img src="https://raw.githubusercontent.com/AKB0N/Counter_App/master/1.png" width="400"/> 
 
-Version 1.0
-created the app
+Version 1.0  :
+* Created the app
 
-Version 1.1
-added vibration on reset button
-added launcher icon
-added launcher name
-fixed splash screen icon
-fixed minus numbers
+Version 1.1 :
+* Added vibration on reset button
+* Added launcher icon
+* Added launcher name
+* Fixed splash screen icon
+* Fixed minus numbers
 
 ## Getting Started
 
