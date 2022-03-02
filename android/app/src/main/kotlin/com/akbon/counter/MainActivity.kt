@@ -1,4 +1,4 @@
-package com.akbon.counter.counter_app
+package com.akbon.counter
 
 import io.flutter.embedding.android.FlutterActivity
 

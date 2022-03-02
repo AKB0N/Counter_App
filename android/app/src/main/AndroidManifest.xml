@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.akbon.counter.counter_app">
+    package="com.akbon.counter">
     <uses-permission android:name="android.permission.VIBRATE"/>
    <application
         android:label="Counter"
