@@ -1,5 +1,5 @@
 # <img src="https://raw.githubusercontent.com/AKB0N/Counter_App/master/assets/icon/logo.png" width="50"/>   Counter App
-assets/icon/logo.png
+
 my First Flutter app 
 
 # Previews
