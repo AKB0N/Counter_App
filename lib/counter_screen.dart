@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vibration/vibration.dart';
 
 class CounterScreen extends StatefulWidget {
   const CounterScreen({Key? key}) : super(key: key);
@@ -41,11 +42,7 @@ class _CounterScreenState extends State<CounterScreen> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      if (counter == 0) {
-                        counter = 0;
-                      } else {
-                        counter--;
-                      }
+                      counter == 0 ? counter = 0 : counter--;
                     });
                   },
                   child: const Text(
@@ -100,8 +97,10 @@ class _CounterScreenState extends State<CounterScreen> {
           size: 40,
         ),
         onPressed: () {
-          setState(() {});
-          counter = 0;
+          setState(() {
+            counter = 0;
+            Vibration.vibrate(duration: 50);
+          });
         },
       ),
     );

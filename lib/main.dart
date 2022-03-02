@@ -23,11 +23,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: AnimatedSplashScreen(
         duration: 3000,
-        splash: const Icon(
-          Icons.countertops,
-          color: Colors.white,
-          size: 100,
+        splash: Image(
+          image: AssetImage('assets/icon/logo.png'),
         ),
+        splashIconSize: 200.0,
         nextScreen: const CounterScreen(),
         splashTransition: SplashTransition.fadeTransition,
         pageTransitionType: PageTransitionType.fade,

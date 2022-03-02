@@ -1,9 +1,19 @@
-# Counter App
-
+# <img src="https://raw.githubusercontent.com/AKB0N/Counter_App/master/assets/icon/logo.png" width="50"/>   Counter App
+assets/icon/logo.png
 my First Flutter app 
 
 # Previews
 <img src="https://raw.githubusercontent.com/AKB0N/Counter_App/master/1.png" width="400"/> 
+
+Version 1.0
+created the app
+
+Version 1.1
+added vibration on reset button
+added launcher icon
+added launcher name
+fixed splash screen icon
+fixed minus numbers
 
 ## Getting Started
 
@@ -17,3 +27,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+

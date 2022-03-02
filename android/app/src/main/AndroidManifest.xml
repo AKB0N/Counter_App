@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.akbon.counter.counter_app">
+    <uses-permission android:name="android.permission.VIBRATE"/>
    <application
-        android:label="counter_app"
+        android:label="Counter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
