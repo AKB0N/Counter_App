@@ -41,7 +41,11 @@ class _CounterScreenState extends State<CounterScreen> {
                 child: TextButton(
                   onPressed: () {
                     setState(() {
-                      counter--;
+                      if (counter == 0) {
+                        counter = 0;
+                      } else {
+                        counter--;
+                      }
                     });
                   },
                   child: const Text(
